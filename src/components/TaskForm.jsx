@@ -62,10 +62,10 @@ import { use } from 'react'
             onChange={handleChange} />
             <div className="task_form_bottom_line">
                 <div>
-                    <Tag tagName= "HTML" selectTag= {selectTag} selected={checkTag("HTML")}/>
-                    <Tag tagName= "CSS" selectTag= {selectTag} selected={checkTag("CSS")}/>
-                    <Tag tagName= "JavaScript" selectTag= {selectTag} selected={checkTag("JavaScript")}/>
-                    <Tag tagName= "React" selectTag= {selectTag} selected={checkTag("React")}/>
+                    <Tag tagName= "Work" selectTag= {selectTag} selected={checkTag("Work")}/>
+                    <Tag tagName= "Personal" selectTag= {selectTag} selected={checkTag("CSS")}/>
+                    <Tag tagName= "Study" selectTag= {selectTag} selected={checkTag("Study")}/>
+                    <Tag tagName= "Health" selectTag= {selectTag} selected={checkTag("React")}/>
                 </div>
 
                 <div>

@@ -3,11 +3,11 @@ import "./Tag.css"
 
 const Tag = ({tagName, selectTag, selected}) => {
   const tagStyle = {
-    HTML: {backgroundColor: "#fda821"},
-    CSS: {backgroundColor: "#15d4c8"},
-    JavaScript: {backgroundColor: "#ffd12c"},
-    React: {backgroundColor: "#4cdafc"},
-    default: {backgroundColor: "#f9f9f9"}
+    Work: {backgroundColor: "#fda821"},
+    Personal: {backgroundColor: "#15d4c8"},
+    Study: {backgroundColor: "#ffd12c"},
+    Health: {backgroundColor: "#4cdafc"},
+    Others: {backgroundColor: "#f9f9f9"}
   }
   return (
     <button 
