@@ -63,9 +63,9 @@ import { use } from 'react'
             <div className="task_form_bottom_line">
                 <div>
                     <Tag tagName= "Work" selectTag= {selectTag} selected={checkTag("Work")}/>
-                    <Tag tagName= "Personal" selectTag= {selectTag} selected={checkTag("CSS")}/>
+                    <Tag tagName= "Personal" selectTag= {selectTag} selected={checkTag("Personal")}/>
                     <Tag tagName= "Study" selectTag= {selectTag} selected={checkTag("Study")}/>
-                    <Tag tagName= "Health" selectTag= {selectTag} selected={checkTag("React")}/>
+                    <Tag tagName= "Health" selectTag= {selectTag} selected={checkTag("Health")}/>
                 </div>
 
                 <div>
